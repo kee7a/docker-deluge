@@ -13,7 +13,7 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 RUN \
  apk add --no-cache \
 	ca-certificates \
-	libressl2.4-libssl \
+	libressl2.6-libssl \
 	p7zip \
 	unrar \
 	unzip && \
